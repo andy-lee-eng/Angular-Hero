@@ -13,20 +13,21 @@ Example project here: [Angular-Hero-Sample](https://github.com/DevAndyLee/Angula
 
 1. Include `alAngularHero` as a dependency in your Angular app.
 
-```js
-angular.module('app', ['alAngularHero'])
-```
+    ```js
+    angular.module('app', ['alAngularHero'])
+    ```
 
 2. Include the supplied CSS file or add the `.hero-animating` style to your own.
 
 3. Declare the page transitions to use on the `ng-view` element, including `hero-transition`:
-```html
-<div ng-view class="page-transition hero-transition"></div>
-```
+    ```html
+    <div ng-view class="page-transition hero-transition"></div>
+    ```
 4. Identify hero elements with the `hero` class and `hero-id` attribute:
-```html
-<div class="name hero" hero-id="name">{{contact.name}}</div>
-```
+    ```html
+    <div class="name hero" hero-id="name">{{contact.name}}</div>
+    ```
+    The `hero-id` attribute should be the same on both pages to trigger a Hero animation from one to the other.
 
 ###Install via Bower
 
