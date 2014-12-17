@@ -1,7 +1,7 @@
 {
   "name": "Angular-Hero",
   "main": "./angular-hero.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "authors": [
     "Andy Lee <alee@scottlogic.co.uk>"
   ],
