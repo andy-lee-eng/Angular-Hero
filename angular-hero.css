@@ -1,5 +1,11 @@
-﻿
-/* Hero transition css properties */
+﻿.hero-transition.hero-leave {
+    visibility: hidden;
+}
+
+.hero-transition.ng-leave {
+    visibility: visible;
+}
+
 .hero-animating {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
