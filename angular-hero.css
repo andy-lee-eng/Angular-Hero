@@ -1,0 +1,12 @@
+﻿
+/* Hero transition css properties */
+.hero-animating {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all ease-in-out 500ms;
+    -moz-transition: all ease-in-out 500ms;
+    -o-transition: all ease-in-out 500ms;
+    transition: all ease-in-out 500ms;
+    position: absolute;
+    z-index: 10000;
+}
