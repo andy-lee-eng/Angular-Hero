@@ -5,6 +5,8 @@ Create hero transitions with Angular, similar to those implemented by Google Pol
 
 ##Example
 
+Example project here: [Angular-Hero-Sample](https://github.com/DevAndyLee/Angular-Hero-Sample)
+
 <img src="sample/angular-hero-sample.gif" style="width: 300px;" />
 
 ##Usage
