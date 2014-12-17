@@ -20,7 +20,8 @@
     "bower_components",
     "test",
     "tests",
-    "sample"
+    "sample",
+    "gulpfile.js"
   ],
   "dependencies": {
     "angular": "~1.3.7",
