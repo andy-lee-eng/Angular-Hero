@@ -1,7 +1,7 @@
 Angular-Hero
 ============
 
-Create hero transitions with Angular, similar to those implemented by Google Polymer's [core-animated-pages](https://www.polymer-project.org/docs/elements/core-elements.html#core-animated-pages).
+Create hero transitions with Angular, similar to those implemented by Google's Material Design and Polymer's [core-animated-pages](https://www.polymer-project.org/docs/elements/core-elements.html#core-animated-pages).
 
 ##Example
 
@@ -36,15 +36,15 @@ For example, styling the contact name in the above example with this CSS won't w
 .screen1 .name { color: red; }
 ```
 
-The hero element is moved out of `.screen1` during the animation, so will lose its color.
+The hero element is moved out of `.screen1` during the animation, so will lose its colour.
 Instead, add a class to the element and style directly. e.g.
 ```css
 .screen1-name { color: red; }
 ```
 
-This also means that css styles will be animated during the transition.
+This also means that CSS styles will be animated during the transition.
 For example, if the target element is blue, then we'll see an animated transition from red to blue.
-You can also animate other syles in this way, such as corner-radius and borders etc...
+You can also animate other styles in the same way, such as corner-radius and borders etc...
 
 ###Install via Bower
 
