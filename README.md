@@ -5,7 +5,7 @@ Create hero transitions with Angular, similar to those implemented by Google Pol
 
 ##Usage
 
-1. Include angular-hero as a dependency in your Angular app.
+1. Include `alAngularHero` as a dependency in your Angular app.
 
 ```js
 angular.module('app', ['alAngularHero'])
