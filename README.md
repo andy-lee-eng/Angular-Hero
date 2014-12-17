@@ -27,6 +27,7 @@ Example project here: [Angular-Hero-Sample](https://github.com/DevAndyLee/Angula
     ```html
     <div class="name hero" hero-id="name">{{contact.name}}</div>
     ```
+
     The `hero-id` attribute should be the same on both pages to trigger a Hero animation from one to the other.
 
 ###Install via Bower
