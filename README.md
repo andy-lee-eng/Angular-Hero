@@ -9,6 +9,12 @@ Example project here: [Angular-Hero-Sample](https://github.com/DevAndyLee/Angula
 
 <img src="sample/angular-hero-sample.gif" />
 
+###Install with Bower
+
+```
+bower install angular-hero
+```
+
 ##Usage
 
 1. Include `alAngularHero` as a dependency in your Angular app.
@@ -45,10 +51,3 @@ Instead, add a class to the element and style directly. e.g.
 This also means that CSS styles will be animated during the transition.
 For example, if the target element is blue, then we'll see an animated transition from red to blue.
 You can also animate other styles in the same way, such as corner-radius and borders etc...
-
-###Install via Bower
-
-```
-bower install angular-hero
-```
-
