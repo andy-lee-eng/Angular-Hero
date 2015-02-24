@@ -73,7 +73,6 @@ angular.module('alAngularHero', ['ngAnimate'])
         var animateHero = function animateHero(fromHero, toHero) {
             // Get the screen positions
             var fromRect = getScreenRect(fromHero, _fromScreen);
-            var toRect = getScreenRect(toHero, _toScreen);
                 
             // Clone and hide the source and target elements
             var moving = fromHero.clone();
@@ -111,6 +110,7 @@ angular.module('alAngularHero', ['ngAnimate'])
 
             // Delay here allows the DOM to update before starting
             setTimeout(function () {
+                var toRect = getScreenRect(toHero, _toScreen);
                 // Move to the new position (animated by css transition)
                 var transform = 'translate3d(' + (toRect.left - fromRect.left) + 'px, '
                         + (toRect.top - fromRect.top) + 'px, 0)';
