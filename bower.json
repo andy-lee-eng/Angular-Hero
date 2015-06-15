@@ -4,7 +4,7 @@
     "./angular-hero.js",
     "./angular-hero.css"
   ],
-  "version": "0.0.3",
+  "version": "0.0.7",
   "authors": [
     "Andy Lee <alee@scottlogic.co.uk>"
   ],
