@@ -3,19 +3,19 @@ Angular-Hero
 
 Create hero transitions with Angular, similar to those implemented by Google's Material Design and Polymer's [core-animated-pages](https://www.polymer-project.org/docs/elements/core-elements.html#core-animated-pages).
 
-##Example
+## Example
 
 Example project here: [Angular-Hero-Sample](https://github.com/DevAndyLee/Angular-Hero-Sample)
 
 <img src="sample/angular-hero-sample.gif" />
 
-###Install with Bower
+### Install with Bower
 
 ```
 bower install angular-hero
 ```
 
-##Usage
+## Usage
 
 1. Include `alAngularHero` as a dependency in your Angular app.
 
